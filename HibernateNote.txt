@@ -1,0 +1,66 @@
+Hibernate:
+1/12/2023==============================================================================================================================================================================================Drawback of jdbc
+
+1.create a tables and database explicitly
+2.database dependent
+3.required write 5 steps repeatedly
+4.write sql query every time
+5.no relation between java object and data present in mysql
+
+to overcome those we use ---->O[object]R[db]M[mapping] technology  ORM TOOL==>1.hibernate 2.openJPA 3.top link 4.myblock5.eclipse link
+
+why hibernate ==> java persistence framework
+
+1. open source
+2. most widely use //lightweight
+3.faster other ==> because it provide cache
+
+hibernate with jpa[java persistance API]--> want to change tool  -->it give speciification[abstaction  // Interface] and hibernate or any tool provide implementation
+
+JPA-->package javax.persistences 
+
+3 interface
+
+1.EntityManagerFactory[I]===> use to create multiple entity manager instances
+2.EntityManager[I]==========>use to manage the life cycle of  entity Object and it provide multiple methods to do crud operations
+3.EntityTransation[I]===> want to do tcl query 
+===============================================================================================================================================================================================2/12/2023
+hibernate provides 3 layers (packages)
+1.dto[data tranfer object]==>entity class
+2.dao[data access object]==>CRUD class >>dao class
+3.controller===>main
+==============================================================================================================================================================================================4/12/2023
+
+
+
+
+user ==
+id name
+phone 
+email
+password
+
+facebook
+instagram
+
+snapchat
+twitter
+whatsApp
+
+controller
+welcome user
+
+1.signup
+2.login==>email,password
+3.exit
+==============================================================================================================================================================================================5/12/2023
+hibernate provides 4 mapping
+1.1 to 1
+2.1 to many
+3.many to 1
+4.many to  many
+
+
+
+
+
